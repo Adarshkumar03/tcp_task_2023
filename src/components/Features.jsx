@@ -127,10 +127,10 @@ const Features = () => {
         </div>
       </div>
     </div>
-    <div className="features-title-2">
-      <div className="text-wrapper-6">Features Just Peyme Has</div>
+    <div className="features-title-container">
+      <div className="reasons-title">Features Just Peyme Has</div>
       <div className="frame-11">
-        <p className="text-wrapper-7">
+        <p className="features-content">
           When the life too much things you need more than you have. Let’s Peyme help your life to easier with
           smart payment system
         </p>

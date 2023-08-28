@@ -1,4 +1,4 @@
-
+import "./styleguide.css";
 import './App.css'
 import Header from './components/Header'
 import Reasons from './components/Reasons'
@@ -12,7 +12,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="landing-page-light-home">
+    <div className="landing-page">
      <div className="div">
      <Header/> 
      <Reasons/>

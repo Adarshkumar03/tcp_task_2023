@@ -6,8 +6,8 @@ const ReasonsSection = () => {
         src="https://generation-sessions.s3.amazonaws.com/821cf9d36b242fc3bb455c9c4d7fe6d5/img/reasons-section-3.svg"
       />
       <div className="reasons-container">
-        <div className="text-wrapper-8">Purchase One Touch</div>
-        <p className="get-a-quick-overview">
+        <div className="reasons-head">Purchase One Touch</div>
+        <p className="overview">
           Get a quick overview of all your transactions in our easy-to-use Peyme in one touch
         </p>
       </div>
@@ -62,8 +62,8 @@ const ReasonsSection = () => {
         </div>
       </div>
       <div className="reasons-container">
-        <div className="text-wrapper-8">Free Transactions</div>
-        <p className="get-a-quick-overview">
+        <div className="reasons-head">Free Transactions</div>
+        <p className="overview">
           Every transactions in Peyme is free. You don’t worry about fees. Our profits base your satisfied
           and ads
         </p>
@@ -75,8 +75,8 @@ const ReasonsSection = () => {
         src="https://generation-sessions.s3.amazonaws.com/821cf9d36b242fc3bb455c9c4d7fe6d5/img/reasons-section-4.svg"
       />
       <div className="reasons-container">
-        <div className="text-wrapper-8">Private and secure</div>
-        <p className="get-a-quick-overview">
+        <div className="reasons-head">Private and secure</div>
+        <p className="overview">
           None of your personcal data is ever collected or stored in our Peyme. Your history transaction
           just you see
         </p>

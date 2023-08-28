@@ -1,6 +1,11 @@
+import StepsSection from "./StepsSection";
+import user from "../assets/user.png";
+import wallet from "../assets/wallet.png";
+import linkCard from "../assets/linkCard.png";
+
 const Steps = () => {
-    return <div className="element-steps">
-    <div className="overlap-3">
+    return <div className="steps">
+    <div className="figure">
       <div className="ellipse-4"></div>
       <div className="rectangle-8"></div>
       <div className="frame-14">
@@ -39,61 +44,34 @@ const Steps = () => {
                 </div>
               </div>
       </div>
-      <div className="frame-16">
+      <div className="three-steps">
         <div className="div-3">
-          <p className="text-wrapper-9">Start Now With 3 Steps</p>
-          <div className="frame-11">
-            <p className="text-wrapper-3">
+          <p className="steps-head">Start Now With 3 Steps</p>
+          <div className="steps-subtext">
+            <p className="steps-content">
               Besome a Peyme customer in the easiest way just simple, fast and accurate steps. It won’t take your
               time to experience
             </p>
           </div>
         </div>
-        <div className="element-steps-container">
-          <div className="element-steps-section-step">
-            <div className="element-steps-section">
-              <img
-                className="icon-font-awesome-3"
-                src="https://generation-sessions.s3.amazonaws.com/821cf9d36b242fc3bb455c9c4d7fe6d5/img/icon-font-awesome-solid-user-4.svg"
-              />
-            </div>
-            <div className="frame-18">
-              <div className="step-create-your">Step 1:&nbsp;&nbsp;Create Your Account</div>
-              <p className="text-wrapper-10">
-                Signing up for your own Peyme account is easy and free. Just connection with phone or gmail
-                instandly
-              </p>
-            </div>
-          </div>
-          <div className="element-steps-section-step">
-            <div className="element-steps-section">
-              <img
-                className="icon-font-awesome-3"
-                src="https://generation-sessions.s3.amazonaws.com/821cf9d36b242fc3bb455c9c4d7fe6d5/img/icon-font-awesome-solid-university-2.svg"
-              />
-            </div>
-            <div className="frame-18">
-              <div className="step-create-your">Step 2:&nbsp;&nbsp;Link Your Cards</div>
-              <p className="text-wrapper-10">
-                Link your preferred credit, debit or prepaid cards to your Payme account.
-              </p>
-            </div>
-          </div>
-          <div className="element-steps-section-step">
-            <div className="element-steps-section">
-              <img
-                className="icon-font-awesome-3"
-                src="https://generation-sessions.s3.amazonaws.com/821cf9d36b242fc3bb455c9c4d7fe6d5/img/icon-font-awesome-solid-wallet-2.svg"
-              />
-            </div>
-            <div className="frame-18">
-              <div className="step-create-your">Step 3:&nbsp;&nbsp;All Done</div>
-              <p className="text-wrapper-10">
-                Thats all done. Now you can explore any apps, any webs that are ours partnets to transfer with
-                them
-              </p>
-            </div>
-          </div>
+        <div className="steps-container">
+          <StepsSection src={user}
+                        stepTitle="Create Your Account"
+                        stepContent="Signing up for your own Peyme account is easy and free. Just connection with phone or gmail
+                        instandly"
+                        stepNumber="1"
+          />
+          <StepsSection src={linkCard}
+                        stepTitle="Link Your Cards"
+                        stepContent="Link your preferred credit, debit or prepaid cards to your Payme account."
+                        stepNumber="2"
+          />
+          <StepsSection src={wallet}
+                        stepTitle="All Done"
+                        stepContent="Thats all done. Now you can explore any apps, any webs that are ours partnets to transfer with
+                        them"
+                        stepNumber="3"
+          />
         </div>
       </div>
     </div>

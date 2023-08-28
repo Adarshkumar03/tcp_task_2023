@@ -2,10 +2,10 @@ import ReasonsSection from "./ReasonsSection";
 
 const Reasons = () => {
     return <div className="reasons">
-    <div className="features-title">
-      <div className="text-wrapper-6">Why you choose us?</div>
+    <div className="reasons-title-container">
+      <div className="reasons-title">Why you choose us?</div>
       <div className="frame-11">
-        <p className="text-wrapper-7">
+        <p className="reasons-text">
           When the life too much things you need more than you have. Let Peyme help your life to easier with smart
           payment system
         </p>

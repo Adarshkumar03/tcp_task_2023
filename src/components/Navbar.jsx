@@ -17,8 +17,8 @@ const Navbar = () => {
     </div>
   </div>
   <div className="join-container">
-    <button className="button"><div className="sign-up">Sign In</div></button>
-    <button className="div-wrapper"><div className="text-wrapper-2">Sign Up</div></button>
+    <button className="button"><div className="sign-in">Sign In</div></button>
+    <button className="button"><div className="sign-up">Sign Up</div></button>
   </div>
   <img
     className="logo"
