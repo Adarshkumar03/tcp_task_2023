@@ -2,11 +2,11 @@
 
 const Download = () => {
     return <div className="download">
-    <div className="frame-20">
-      <div className="features-title-3">
-        <div className="text-wrapper-14">Use Peyme In Mobile</div>
+    <div className="download-content">
+      <div className="download-title">
+        <div className="download-head">Use Peyme In Mobile</div>
         <div className="frame-11">
-          <p className="text-wrapper-3">
+          <p className="download-text">
             We already support in multiple flatform to provide the best experiences, allow you to control the flow
             of currency with no more efforts. Let’s make the world easy to life
           </p>

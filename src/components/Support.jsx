@@ -4,17 +4,17 @@ const Support = () => {
       <div className="frame-22">
         <div className="frame-23">
           <div className="frame-24">
-            <div className="text-wrapper-14">Support</div>
+            <div className="reasons-title">Support</div>
             <div className="frame-25">
-              <p className="text-wrapper-16">Getting started for your benefits</p>
-              <p className="text-wrapper-17">
+              <p className="support-text">Getting started for your benefits</p>
+              <p className="support-subtext">
                 From signing up for an account to choosing a payment solution – Everyone have an supporter to
                 solves any problems within 24 hours
               </p>
             </div>
           </div>
           <div className="button-wrapper">
-            <button className="div-wrapper"><div className="text-wrapper-2">Sign Up Now</div></button>
+            <button className="button"><div className="sign-up">Sign Up Now</div></button>
           </div>
         </div>
         <div className="frame-26">

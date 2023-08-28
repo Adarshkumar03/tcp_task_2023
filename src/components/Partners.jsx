@@ -1,9 +1,9 @@
 const Partners = () => {
     return <div className="partners">
-    <div className="frame-29">
-      <div className="text-wrapper-6">Partners</div>
+    <div className="reasons-head">
+      <div className="reasons-title">Partners</div>
       <div className="frame-25">
-        <p className="text-wrapper-18">Powering payments for partners around the world</p>
+        <p className="reasons-text">Powering payments for partners around the world</p>
         <p className="text-wrapper-19">
           Our partners create innovative platforms for merchants that trust Payme to process their payments.
         </p>
@@ -13,7 +13,7 @@ const Partners = () => {
       className="line"
       src="https://generation-sessions.s3.amazonaws.com/821cf9d36b242fc3bb455c9c4d7fe6d5/img/line-1-1.svg"
     />
-    <div className="frame-30">
+    <div className="partners-logo">
       <div className="overlap-group-10">
         <div className="frame-31">
           <img

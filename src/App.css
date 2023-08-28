@@ -112,10 +112,12 @@
   left:25px;
   top:-10px;
   background-color: #1443BD;
-  padding:10px 22px;
+  padding:12px 22px;
   border-radius: 5px;
   font-size:smaller;
 }
+
+.landing-page .sign
 
 .landing-page .div-wrapper {
   display: inline-flex;
@@ -1013,7 +1015,7 @@
 
 .landing-page .div-3 {
   display: inline-flex;
-  gap: 16px 50px;
+  gap:16px;
   position: relative;
   flex: 0 0 auto;
   flex-direction: column;
@@ -1419,11 +1421,11 @@
   width: 100vw;
   height: 808px;
   top: 3052px;
-  left: 0;
+  left: 50px;
   background-color: var(--lightgray-0);
 }
 
-.landing-page .frame-20 {
+.landing-page .download-content {
   position: absolute;
   width: 468px;
   height: 248px;
@@ -1431,7 +1433,7 @@
   left: 108px;
 }
 
-.landing-page .features-title-3 {
+.landing-page .download-title {
   display: flex;
   width: 468px;
   gap: 8px;
@@ -1442,17 +1444,22 @@
   align-items: flex-start;
 }
 
-.landing-page .text-wrapper-14 {
+.landing-page .download-head {
   position: relative;
   align-self: stretch;
   margin-top: -1px;
-  font-family: var(--font-SF-pro-h3-semibold-font-family);
-  font-weight: var(--font-SF-pro-h3-semibold-font-weight);
-  color: var(--lightprimary);
+  font-weight: 600;
+  color: #0a215e;
   font-size: var(--font-SF-pro-h3-semibold-font-size);
   letter-spacing: var(--font-SF-pro-h3-semibold-letter-spacing);
   line-height: var(--font-SF-pro-h3-semibold-line-height);
   font-style: var(--font-SF-pro-h3-semibold-font-style);
+}
+
+.landing-page .download-text{
+  color: #0a215e;
+  line-height: 25px;
+  font-weight: 300;
 }
 
 .landing-page .frame-21 {
@@ -1595,7 +1602,7 @@
   width: 100vw;
   height: 528px;
   top: 3860px;
-  left: 0;
+  left: 70px;
   background-color: var(--lightgray-0);
 }
 
@@ -1636,6 +1643,10 @@
   flex: 0 0 auto;
 }
 
+.landing-page .support .reasons-title{
+  left:-110px;
+}
+
 .landing-page .frame-25 {
   display: flex;
   flex-direction: column;
@@ -1647,25 +1658,24 @@
   flex: 0 0 auto;
 }
 
-.landing-page .text-wrapper-16 {
+.landing-page .support-text {
   position: relative;
   align-self: stretch;
   margin-top: -1px;
-  font-family: var(--font-gilroy-body-1-semibold-font-family);
-  font-weight: var(--font-gilroy-body-1-semibold-font-weight);
-  color: var(--lightprimary);
+  font-weight: 400;
+  color: #103592;
   font-size: var(--font-gilroy-body-1-semibold-font-size);
   letter-spacing: var(--font-gilroy-body-1-semibold-letter-spacing);
   line-height: var(--font-gilroy-body-1-semibold-line-height);
   font-style: var(--font-gilroy-body-1-semibold-font-style);
 }
 
-.landing-page .text-wrapper-17 {
+.landing-page .support-subtext {
   position: relative;
   align-self: stretch;
-  font-family: var(--font-gilroy-body-2-regular-font-family);
-  font-weight: var(--font-gilroy-body-2-regular-font-weight);
-  color: var(--lightprimary);
+  width:340px;
+  font-weight: 300;
+  color: #0a215e;
   font-size: var(--font-gilroy-body-2-regular-font-size);
   letter-spacing: var(--font-gilroy-body-2-regular-letter-spacing);
   line-height: var(--font-gilroy-body-2-regular-line-height);
@@ -1682,6 +1692,12 @@
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
+}
+
+.landing-page .button-wrapper .sign-up{
+  left:0px;
+  font-size:14px;
+  letter-spacing: 1px;
 }
 
 .landing-page .frame-26 {
@@ -1773,11 +1789,11 @@
   width: 100vw;
   height: 376px;
   top: 4388px;
-  left: 0;
+  left: 50px;
   background-color: var(--lightgray-0);
 }
 
-.landing-page .frame-29 {
+.landing-page .reasons-head {
   display: flex;
   flex-direction: column;
   width: 442px;
@@ -1788,7 +1804,7 @@
   left: 499px;
 }
 
-.landing-page .text-wrapper-18 {
+.landing-page .reasons-text {
   position: relative;
   align-self: stretch;
   margin-top: -1px;
@@ -1824,7 +1840,7 @@
   object-fit: cover;
 }
 
-.landing-page .frame-30 {
+.landing-page .partners-logo {
   position: absolute;
   width: 1224px;
   height: 62px;
@@ -1832,6 +1848,10 @@
   left: 108px;
   overflow: hidden;
   overflow-x: scroll;
+}
+
+.landing-page .partners-logo::-webkit-scrollbar{
+  display: none;
 }
 
 .landing-page .overlap-group-10 {
@@ -1919,7 +1939,7 @@
 }
 
 .footer{
-  background-color: #000059;
+  background-color: #0d2c7b;
 }
 
 .landing-page .frame-32 {
@@ -1930,7 +1950,7 @@
   justify-content: space-between;
   position: relative;
   top: 46px;
-  left: 108px;
+  left: 158px;
 }
 
 .landing-page .frame-33 {
@@ -1940,7 +1960,12 @@
   position: relative;
   align-self: stretch;
   width: 100%;
+  left:100px;
   flex: 0 0 auto;
+}
+
+.frame-33 .column{
+  position: relative;
 }
 
 .landing-page .text-wrapper-20 {
@@ -1958,13 +1983,15 @@
   font-style: var(--font-gilroy-h6-bold-font-style);
 }
 
-.landing-page .frame-34 {
+.landing-page .links {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 8px;
+  gap: 10px;
   position: relative;
+  top:15px;
   flex: 0 0 auto;
+  color:lightgray;
 }
 
 .landing-page .text-wrapper-21 {
@@ -1990,23 +2017,30 @@
   color: var(--lightgray-0);
   font-size: var(--font-gilroy-subtitle-1-medium-font-size);
   letter-spacing: var(--font-gilroy-subtitle-1-medium-letter-spacing);
-  line-height: var(--font-gilroy-subtitle-1-medium-line-height);
+  line-height: 25px;
   white-space: nowrap;
   font-style: var(--font-gilroy-subtitle-1-medium-font-style);
 }
 
 .landing-page .text-wrapper-23 {
   width: fit-content;
-  font-family: var(--font-gilroy-h6-bold-font-family);
   font-weight: var(--font-gilroy-h6-bold-font-weight);
   color: var(--lightgray-0);
   font-size: var(--font-gilroy-h6-bold-font-size);
-  letter-spacing: var(--font-gilroy-h6-bold-letter-spacing);
+  letter-spacing: 1px;
   line-height: var(--font-gilroy-h6-bold-line-height);
   white-space: nowrap;
   position: relative;
   margin-top: -1px;
-  font-style: var(--font-gilroy-h6-bold-font-style);
+}
+
+.footer-sign-up{
+  background-color: white !important;
+  color:#0a215e !important;
+  font-weight: 600;
+  padding:10px 70px !important;
+  top:100px !important;
+  left:0px !important;
 }
 
 .landing-page .text-wrapper-24 {
@@ -2147,4 +2181,5 @@
 .landing-page .frame-39 {
   position: relative;
   width: 392px;
+  left:200px;
 }
