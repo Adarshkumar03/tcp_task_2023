@@ -3,7 +3,7 @@ const Partners = () => {
     <div className="reasons-head">
       <div className="reasons-title">Partners</div>
       <div className="frame-25">
-        <p className="reasons-text">Powering payments for partners around the world</p>
+        <p className="partner-text">Powering payments for partners around the world</p>
         <p className="text-wrapper-19">
           Our partners create innovative platforms for merchants that trust Payme to process their payments.
         </p>
