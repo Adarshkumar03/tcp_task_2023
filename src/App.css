@@ -17,6 +17,8 @@
   position: relative;
 }
 
+/* ##Header## */
+
 .header {
   position: absolute;
   width: 100vw;
@@ -623,6 +625,8 @@
   left: 570px;
 }
 
+/* ##Reasons## */
+
 .landing-page .reasons {
   position: absolute;
   width: 100vw;
@@ -996,6 +1000,8 @@
   top: 97px;
   left: 116px;
 }
+/* ##Steps## */
+
 
 .landing-page .three-steps {
   display: inline-flex;
@@ -1093,6 +1099,8 @@
   line-height: var(--font-gilroy-body-1-regular-line-height);
   font-style: var(--font-gilroy-body-1-regular-font-style);
 }
+
+/* ##Features## */
 
 .landing-page .features {
   position: absolute;
@@ -1411,6 +1419,8 @@
   color: #0a215e;
 }
 
+/* ##Download##  */
+
 .landing-page .download {
   position: absolute;
   width: 100vw;
@@ -1591,6 +1601,8 @@
   top: 25px;
   left: 137px;
 }
+
+/* ##Support## */
 
 .landing-page .support {
   position: absolute;
@@ -1779,6 +1791,8 @@
   left: 1034px;
 }
 
+/* ##Partners## */
+
 .landing-page .partners {
   position: absolute;
   width: 100vw;
@@ -1911,6 +1925,8 @@
     rgb(255, 255, 255) 100%
   );
 }
+
+/* ##Footer## */
 
 .landing-page .footer {
   position: absolute;
